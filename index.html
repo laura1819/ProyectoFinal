@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="webroot/estilos.css" type="text/css">
+	<link rel="stylesheet" href="webroot/fonts.css" type="text/css">
+	<script src="webroot/jquery-3.3.1.js"></script>
+	<script src="webroot/jquery-3.3.1.min.js"></script>
+	<title>Menu</title>
+</head>
+<script>
+		$(document).ready(main);
+ 
+		function main(){
+			$('nav ul li a').click(function(){
+				 $('li').toggleClass("bloque"); 
+			}); 
+		};
+	</script>
+<body>
+
+	<header>
+		
+		<nav>
+			<ul>
+				<li><a href="#">Asignaturas</a></li>
+				<li><a href="#segundo">DWES</a></li>
+				<li><a href="#tercero">DWEC</a></li>
+				<li><a href="#cuarto">DIW</a></li>
+				<li><a href="#quinto">DAW</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+
+	<section name="segundo" id="segundo">
+		
+		<h1><a href="ProyectoDWES/indexProyectoDWES.php">Desarrollo Web Entorno Servidor</a></h1>
+		<a href="ProyectoDWES/indexProyectoDWES.php"><img src="webroot/2.jpg"></a>
+		<p>El modelo de desarrollo web se apoya, en una primera aproximación desde un punto de vista centrado en el hardware, en lo que se conoce como arquitectura cliente-servidor que define un patrón de arquitectura donde existen dos actores, cliente y servidor, de forma que el primero es quién se conecta con el segundo para solicitar algún servicio. En el caso que nos ocupa, el desarrollo web, los clientes solicitan que se les sirva una web para visualizarla, aunque también es posible solicitar información si hablamos del caso de los servicios web que también veremos más adelante. En cualquier caso, en ambos casos aparece el mismo escenario, donde un servidor se encuentra ejecutándose ininterrupidamente a la espera de que los diferentes clientes realicen una solicitud.</p>
+	</section>
+
+	<section name="tercero" id="tercero">
+		
+		<h1><a href="ProyectoDWEC/indexProyectoDWEC.php">Desarrollo Wen entorno Cliente</a></h1>
+		<a href="ProyectoDWEC/indexProyectoDWEC.php"><img src="webroot/3.jpg"></a>
+		<p>JavaScript es un lenguaje de programación interpretado y dinámico que se ha estandarizado en la especificación del lenguaje ECMAScript. Es el lenguaje de programación de la web. Como CSS, JavaScript se puede definir como atributos dentro de los elementos HTML, como bloques de script dentro de una página o en archivos independientes. Al igual que CSS, se recomienda organizar JavaScript en archivos independientes, y mantenerlos separados tanto como sea posible del código HTML que se encuentra en las páginas web individuales o vistas de la aplicación.</p>
+	</section>
+
+	<section name="cuarto" id="cuarto">
+		
+		<h1><a href="ProyectoDIW/indexProyectoDIW.html">Desarrollo Interfaces Web </a></h1>
+		<a href="ProyectoDIW/indexProyectoDIW.html"><img src="webroot/4.png"></a>
+		<p>No podemos realizar un correcto diseño web sin saber que es una interfaz web. Una interfaz web es: una estructura formada por una serie de elementos gráficos que permiten a los usuarios acceder a los contenidos de un sitio web. Haciendo un simil con un barco, podríamos decir, que son “los mandos e indicadores” que el autor de la web pone a nuestro alcance para poder “navegar” por el sitio web.
+
+		Para un correcto diseño web debemos cuidar mucho la interfaz web. Ésta debe permitir a los usuarios navegar de forma fácil, eficaz y cómoda por nuestro sitio. Una interfaz web de calidad va a mejorar la experiencia de usuario.</p>
+	</section>
+
+	<section name="quinto" id="quinto">
+		
+		<h1><a href="ProyectoDAW/index.html">Desarrollo Aplicaciones Web </a></h1>
+		<a href="ProyectoDAW/index.html"><img src="webroot/5.png"></a>
+		<p>Lejos han quedado los tiempos en los que se instalaba y configuraba a mano todos los programas que se necesitan para las tareas de desarrollo web.  Una buena muestra de ello es el Catálogo de Aplicaciones de los Servidores, pero no vamos a centrarnos en eso ahora;  sino que recorremos los diferentes modos de instalación de PHP y las mejores practicas de contar con el entorno de desarrollo que necesitamos, ya realicemos un uso ocasional como aficionado a la programación o uno intensivo y profesional.
+
+
+		El paso a los instaladores todo-en-uno facilitó mucho la creación de entornos de trabajo, pero además hoy existen otras posibilidades que realmente han incorporado nuevas alternativas con diversas ventajas, como veremos a continuación.</p>
+	</section>
+	
+	
+</body>
+
+</html>
